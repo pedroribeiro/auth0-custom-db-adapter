@@ -1,0 +1,17 @@
+version: "3.4"
+
+services:
+  latency-calculator:
+    image: golang
+    container_name: users
+    network_mode: host    
+    working_dir: /app/
+    volumes:
+      - ../:/app/
+    env_file:
+      - ./env/users.env
+    entrypoint: go run cmd/main.go
+    restart: always
+
+
+      
