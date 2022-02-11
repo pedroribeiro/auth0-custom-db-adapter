@@ -1,4 +1,4 @@
-module github.com/elvenworks/users
+module github.com/pedroribeiro/users
 
 go 1.16
 
