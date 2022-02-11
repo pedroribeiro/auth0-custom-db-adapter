@@ -3,11 +3,11 @@ package app
 import (
 	"os"
 
-	"github.com/elvenworks/users/internal/delivery/api"
-	migration "github.com/elvenworks/users/internal/domain/migrations"
-	"github.com/elvenworks/users/internal/driver/database"
-	"github.com/elvenworks/users/internal/driver/logs"
 	"github.com/gin-gonic/gin"
+	"github.com/pedroribeiro/users/internal/delivery/api"
+	migration "github.com/pedroribeiro/users/internal/domain/migrations"
+	"github.com/pedroribeiro/users/internal/driver/database"
+	"github.com/pedroribeiro/users/internal/driver/logs"
 	"github.com/sirupsen/logrus"
 )
 

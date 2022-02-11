@@ -1,6 +1,6 @@
 package usecase
 
-import "github.com/elvenworks/users/internal/domain/entity"
+import "github.com/pedroribeiro/users/internal/domain/entity"
 
 type IUserUseCase interface {
 	Create(user *entity.User) error

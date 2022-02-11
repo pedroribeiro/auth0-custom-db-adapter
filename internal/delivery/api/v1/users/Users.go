@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"strings"
 
-	jwt "github.com/elvenworks/users/internal/delivery/api/middleware"
-	"github.com/elvenworks/users/internal/domain/entity"
-	"github.com/elvenworks/users/internal/usecase"
 	"github.com/gin-gonic/gin"
+	jwt "github.com/pedroribeiro/users/internal/delivery/api/middleware"
+	"github.com/pedroribeiro/users/internal/domain/entity"
+	"github.com/pedroribeiro/users/internal/usecase"
 )
 
 type UserHandler struct {

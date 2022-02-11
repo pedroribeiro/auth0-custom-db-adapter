@@ -1,10 +1,10 @@
 package v1
 
 import (
-	"github.com/elvenworks/users/internal/delivery/api/v1/users"
-	"github.com/elvenworks/users/internal/repository"
-	"github.com/elvenworks/users/internal/usecase"
 	"github.com/gin-gonic/gin"
+	"github.com/pedroribeiro/users/internal/delivery/api/v1/users"
+	"github.com/pedroribeiro/users/internal/repository"
+	"github.com/pedroribeiro/users/internal/usecase"
 	"gorm.io/gorm"
 )
 

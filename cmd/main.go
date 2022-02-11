@@ -5,9 +5,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/elvenworks/users/config"
-	"github.com/elvenworks/users/internal/app"
-	"github.com/elvenworks/users/internal/driver/http"
+	"github.com/pedroribeiro/users/config"
+	"github.com/pedroribeiro/users/internal/app"
+	"github.com/pedroribeiro/users/internal/driver/http"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )

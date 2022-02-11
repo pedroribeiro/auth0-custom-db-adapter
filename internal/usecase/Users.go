@@ -4,8 +4,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/elvenworks/users/internal/domain/entity"
-	"github.com/elvenworks/users/internal/repository"
+	"github.com/pedroribeiro/users/internal/domain/entity"
+	"github.com/pedroribeiro/users/internal/repository"
 	"golang.org/x/crypto/bcrypt"
 )
 

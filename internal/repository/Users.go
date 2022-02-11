@@ -1,7 +1,7 @@
 package repository
 
 import (
-	"github.com/elvenworks/users/internal/domain/entity"
+	"github.com/pedroribeiro/users/internal/domain/entity"
 	"gorm.io/gorm"
 )
 

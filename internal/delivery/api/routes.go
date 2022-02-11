@@ -1,10 +1,10 @@
 package api
 
 import (
-	"github.com/elvenworks/users/internal/delivery/api/handler"
-	"github.com/elvenworks/users/internal/delivery/api/middleware"
-	v1 "github.com/elvenworks/users/internal/delivery/api/v1"
 	"github.com/gin-gonic/gin"
+	"github.com/pedroribeiro/users/internal/delivery/api/handler"
+	"github.com/pedroribeiro/users/internal/delivery/api/middleware"
+	v1 "github.com/pedroribeiro/users/internal/delivery/api/v1"
 	ginprometheus "github.com/zsais/go-gin-prometheus"
 	"gorm.io/gorm"
 )
